@@ -1,45 +1,51 @@
-<footer class="bg-light text-center text-lg-start">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-        <form action="">
-            <!--Grid row-->
-            <div class="row">
-                <!--Grid column-->
-                <div class="col-auto mb-4 mb-md-0">
-                    <p class="pt-2">
-                        <strong>Sign up for our newsletter</strong>
-                    </p>
-                </div>
-                <!--Grid column-->
+<div class="footer  ">
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our Discount and new Recepies</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
 
-                <!--Grid column-->
-                <div class="col-md-5 col-12 mb-4 mb-md-0">
-                    <!-- Email input -->
-                    <div class="form-outline mb-4">
-                        <input type="email" id="form5Example25" class="form-control" />
-                        <label class="form-label" for="form5Example25">Email address</label>
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example29" class="form-control" />
+                                <label class="form-label" for="form5Example29">Email address</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
                     </div>
-                </div>
-                <!--Grid column-->
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+        </div>
+        <!-- Grid container -->
 
-                <!--Grid column-->
-                <div class="col-auto mb-4 mb-md-0">
-                    <!-- Submit button -->
-                    <button type="submit" class="btn btn-primary mb-4">
-                        Subscribe
-                    </button>
-                </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
-        </form>
-    </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-
-</footer>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="#">Foody.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</div>
