@@ -1,3 +1,5 @@
+<style type="text/css">
+
 @import url('https://fonts.cdnfonts.com/css/poppins');
 @import url('https://fonts.cdnfonts.com/css/alegreya-sans-medium');
 @import url('https://fonts.cdnfonts.com/css/playfair-display');
@@ -45,21 +47,23 @@
     height: 15000px;
 }
 
-
-
-.nav_bar {
-    position: fixed;
+.Hero {
     width: 100%;
-    z-index: 2;
 }
 
-.nav_bar .bs-icon {
+.Hero .nav_bar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.Hero .nav_bar .bs-icon {
     height: 150px;
     width: 150px;
 }
 
 
-.nav_bar li {
+.Hero .nav_bar li {
     transition: 0.2s;
 }
 
@@ -82,14 +86,14 @@
 
 
 /* slider-section */
-.slider {
+.Hero .slider {
     z-index: -1;
     object-fit: cover;
     width: 100%;
     height: 100vh;
 }
 
-.slide .carousel-caption {
+.Hero .slide .carousel-caption {
     top: 180px;
 }
 
@@ -100,7 +104,7 @@
     font-family: var(--f-alegreya);
 }
 
-.slide p {
+.Hero .slide p {
     padding-top: 60px;
     font-size: 50px;
     padding-bottom: 60px;
@@ -108,11 +112,11 @@
     font-family: var(--f-popings);
 }
 
-.slide button {
+.Hero .slide button {
     font-size: 60px;
 }
 
-.c-image {
+.Hero .c-image {
     width: 98%;
     height: 100vh;
     object-fit: cover;
@@ -123,7 +127,7 @@
     transition: 0.2s;
 }
 
-.modal-content {
+.Hero .modal-content {
     background-color: #bec2c9;
 }
 
@@ -145,4 +149,4 @@
 .oder_food .details_section p {
     font-size: 20px;
 
-}
+}</style>
